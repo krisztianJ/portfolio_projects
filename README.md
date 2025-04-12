@@ -1,4 +1,23 @@
-# portfolio_projects
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-Projects written in various programming languages (python, html, css, java/javafx etc.)
+FOR ENGLISH SCROLL DOWN!
+# Portfolio Projects
+
+Üdvözöllek a portfóliómban!
+Itt találhatók a különböző programozási nyelveken (Python, HTML, CSS, Java/JavaFX stb.) írt projektjeim, amelyek során fejlesztettem a készségeimet és új technológiákat tanultam meg.
+
+## Projektek
+
+- **[Snake Game](https://github.com/krisztianJ/snake-game)**: Egy klasszikus játék Pythonban.
+- **[Todo App](https://github.com/krisztianJ/todo-app)**: Egyszerű feladatkezelő alkalmazás React használatával.
+
+
+## Képességek
+
+- Python, Java, JavaScript
+- React, HTML, CSS
+- Git, GitHub, VS Code
+- Agile módszertanok
+
+## Kapcsolat
+
+📧 Email: [jarmi.krisztian1114@gmail.com](mailto:jarmi.krisztian1114@gmail.com)  
+🔗 LinkedIn: [linkedin.com/in/krisztián-jármiJ](https://linkedin.com/in/krisztián-jármi)
