@@ -6,8 +6,8 @@ Itt találhatók a különböző programozási nyelveken (Python, HTML, CSS, Jav
 
 ## Projektek
 
-- **[Snake Game](https://github.com/krisztianJ/snake-game)**: Egy klasszikus játék Pythonban.
-- **[Todo App](https://github.com/krisztianJ/todo-app)**: Egyszerű feladatkezelő alkalmazás React használatával.
+- **[Snake Game](https://github.com/krisztianJ/portfolio_projects/snake-game)**: Egy klasszikus játék Pythonban.
+- **[Todo App](https://github.com/krisztianJ/portfolio_projects/todo-app)**: Egyszerű feladatkezelő alkalmazás React használatával.
 
 
 ## Képességek
