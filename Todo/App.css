@@ -1,0 +1,233 @@
+/*A dokumentum törzsére vonatkozó stílus*/
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9fafb;
+  color: #111827;
+  transition: all 0.3s ease;
+}
+
+/*Kontraszt dark mode esetén megfordítja a két színt*/
+body.dark {
+  background-color: #111827;
+  color: #f9fafb;
+}
+
+/* Fő konténer */
+.todo-container {
+  /*Középre igazítva lekerekítve és árnyékkal*/
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease;
+}
+
+/*Dark móde a konténerhez*/
+body.dark .todo-container {
+  background-color: #1f2937;
+  border: 1px solid #374151;
+}
+
+/* Cím + dark mode kapcsoló */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+/*A nap/hold ikonhoz tartozó gomb stílus: nagy, keret nélküli, kattintható*/
+.theme-toggle {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Bemeneti rész */
+.input-group,
+.filter-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.input-group input,
+.input-group select,
+.input-group button,
+.filter-group select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #d1d5db;
+}
+
+.input-group input,
+.input-group select,
+.filter-group select {
+  flex: 1 1 140px;
+}
+
+.input-group button {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.input-group button:hover {
+  background-color: #2563eb;
+}
+
+body.dark input,
+body.dark select {
+  background-color: #374151;
+  color: #f9fafb;
+  border-color: #4b5563;
+}
+
+body.dark .input-group button {
+  background-color: #2563eb;
+  color: white;
+}
+
+body.dark .input-group button:hover {
+  background-color: #1d4ed8;
+}
+
+/* Lista */
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*Lista elem*/
+.task-list li {
+  background-color: #f3f4f6;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  margin-bottom: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  border-left: 8px solid #d1d5db;
+  transition: background-color 0.2s ease;
+}
+
+/*Ha rávisszük az egeret az elemre*/
+.task-list li:hover {
+  background-color: #e5e7eb;
+}
+
+body.dark .task-list li {
+  background-color: #374151;
+}
+
+
+.task-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.task-text {
+  font-weight: 500;
+  word-break: break-word;
+}
+
+.task-date {
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+/* Akciógombok */
+.task-actions {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.task-actions button {
+  border: none;
+  background: transparent;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.task-actions button:hover {
+  transform: scale(1.2);
+}
+
+/* Mobilbarát */
+@media (max-width: 480px) {
+  .input-group, .filter-group {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .task-actions {
+    flex-wrap: wrap;
+  }
+}
+
+/* Fade-in animáció */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeIn 0.4s ease-out;
+}
+
+.filter-group input[type="text"] {
+  flex: 1 1 180px;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #d1d5db;
+}
+
+body.dark .filter-group input[type="text"] {
+  background-color: #374151;
+  color: #f9fafb;
+  border-color: #4b5563;
+}
+
+/*Lejárt feladat kijelzése*/
+.overdue {
+  color: #ef4444;
+  font-weight: bold;
+  margin-left: 0.5rem;
+}
+
+.save-button {
+  background-color: #10b981; 
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.save-button:hover {
+  background-color: #059669; 
+}
+
+body.dark .save-button {
+  background-color: #059669;
+}
+
+body.dark .save-button:hover {
+  background-color: #047857;
+}
