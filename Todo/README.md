@@ -2,7 +2,7 @@ FOR ENGLISH VERSION SCROLL DOWN
 
 # ✅ ToDo Lista (React, SCSS)
 
-Egy letisztult, mégis funkciókban gazdag feladatkezelő alkalmazás **React** és **SCSS** felhasználásával.  
+Egy letisztult, mégis funkciókban gazdag feladatkezelő alkalmazás **React** felhasználásával.  
 Támogatja a feladatok létrehozását, szerkesztését, szűrését, állapotkezelését és megjelenítését világos és sötét témában is.
 
 ---
@@ -69,7 +69,7 @@ const filteredTasks = tasks.filter(task => {
 
 # ✅ ToDo List (React, SCSS)
 
-A sleek and feature-rich task management application built using **React** and **SCSS**.  
+A sleek and feature-rich task management application built using **React**.  
 It supports task creation, editing, filtering, state handling, and theming with light/dark modes.
 
 ---
