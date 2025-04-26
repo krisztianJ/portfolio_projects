@@ -9,7 +9,7 @@ Itt találhatók a különböző programozási nyelveken (Python, HTML, CSS, Jav
 - **[Snake Game](https://github.com/krisztianJ/portfolio_projects/tree/main/Snake)**: Egy klasszikus játék Pythonban.
 - **[Todo App](https://github.com/krisztianJ/portfolio_projects/tree/main/Todo)**: Egyszerű feladatkezelő alkalmazás React használatával.
 - **[Calculator App](https://github.com/krisztianJ/portfolio_projects/tree/main/Calculator)**: Tudományos számológép Pythonban Tkinterrel.
-- **[Blood Donation Management](https://github.com/krisztianJ/portfolio_projects/tree/main/Blood_donationt)**: Véradó nyilvántartó rendszer JavaFX használatával.
+- **[Blood Donation Management](https://github.com/krisztianJ/portfolio_projects/tree/main/Blood_donation)**: Véradó nyilvántartó rendszer JavaFX használatával.
 - **[Inventory Management System](https://github.com/krisztianJ/portfolio_projects/tree/main/Inventory_management_system)**: Készletnyilvántartó alkalmazás JavaFX és MySQL adatbázis kapcsolat segítségével.
 
 ## Képességek
